@@ -1,0 +1,19 @@
+[tool.black]
+line-length = 88
+target-version = ['py39']
+include = '\.pyi?$'
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+
+[project]
+name = "textractai"
+version = "0.1.0"
+description = "A cloud-based Optical Character Recognition (OCR) service"
+authors = [
+    {name = "Pooja @ Tathyum", email = "pooja@tathyum.com"},
+]
