@@ -1,0 +1,37 @@
+Create a production-grade OCR system that matches or exceeds industry standards. Requirements:
+
+Architecture:
+
+
+Document detector using YOLOv8/LayoutLMv3
+Text recognizer with transformer-based architecture
+Post-processing with language model integration
+
+
+Technical Specs:
+
+
+Processing time: <1s/page
+Accuracy: >98% word-level
+Multi-language support (100+ languages)
+GPU memory: <8GB
+
+
+Implementation:
+
+
+Data: DocVQA, RVL-CDIP, PubLayNet
+Training: Mixed precision, gradient accumulation
+Deployment: Docker + FastAPI
+Monitoring: Prometheus + Grafana
+
+
+Evaluation:
+
+
+Character/Word Error Rate
+Layout accuracy
+Processing speed
+Resource utilization
+
+Provide detailed implementation code and steps.
